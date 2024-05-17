@@ -1,13 +1,9 @@
 a, b = map(int, input().split())
-quotient = a // b
-remainder = a % b
-result_str = str(quotient) + '.'
+x = a % b
+result = f"{a//b}."
+for _ in range(20):
+    x *= 10
+    result += f"{x//b}"
+    x %= b
 
-decimal_places = 0
-while decimal_places < 20:
-    remainder *= 10
-    digit = remainder // b
-    remainder = remainder % b
-    result_str += str(digit)
-    decimal_places += 1
-print(f"{result_str}")
+print(result)
