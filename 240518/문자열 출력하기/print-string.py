@@ -1,3 +1,3 @@
-n = input()
-for i in range(n):
+n = int(input())
+for _ in range(n):
     print("LeebrosCode")
