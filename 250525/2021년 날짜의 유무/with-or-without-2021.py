@@ -17,6 +17,6 @@ dayMax = {
 }
 
 def isExistDate(M, D):
-    return "Yes" if D <= dayMax[M] else "No"
+    return "Yes" if D <= dayMax[M] and 1 <= M <= 12 else "No"
 
 print(isExistDate(M, D))
