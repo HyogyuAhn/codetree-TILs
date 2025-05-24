@@ -1,7 +1,5 @@
 a, b = map(int, input().split())
-for _ in range(b):
-    if a > b:
-        break
+while a <= b:
     print(a, end = ' ')
     if a % 2 == 0:
         a += 3
