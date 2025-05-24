@@ -1,0 +1,1 @@
+print(sum(range(*(lambda a, b: (a, b + 1))(*map(int, input().split())))))
