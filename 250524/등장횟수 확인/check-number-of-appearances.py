@@ -1,0 +1,1 @@
+print(sum(i % 2 == 0 for i in [int(input()) for i in range(5)]))
