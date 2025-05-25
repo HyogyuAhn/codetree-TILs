@@ -10,5 +10,6 @@ def checkAlphaCnt(s):
             alpha = d
         else:
             return "No"
+    return "No"
 
 print(checkAlphaCnt(A))
