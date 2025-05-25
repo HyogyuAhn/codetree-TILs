@@ -6,7 +6,7 @@ def checkAlphaCnt(s):
     for d in s:
         if alpha != None and alpha != d:
             return "Yes"
-        elif alpha == None:
+        elif alpha == None or alpha == d:
             alpha = d
         else:
             return "No"
