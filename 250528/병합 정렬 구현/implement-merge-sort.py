@@ -35,4 +35,5 @@ def merge(arr, low, mid, high):
     return arr
 
 mergeSort(arr, 0, n - 1)
-print(*arr)
+for d in arr:
+    print(d, end = ' ')
